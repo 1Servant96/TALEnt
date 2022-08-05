@@ -6,7 +6,6 @@ public class Main {
         t.a = 7;
         t.b = 6;
         t.c = 3;
-
         t.methodArea(t.a, t.b, t.c);
     }
 
