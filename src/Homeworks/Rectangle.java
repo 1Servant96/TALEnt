@@ -1,4 +1,4 @@
-package task;
+package Homeworks;
 
 public class Rectangle {
    private static int width;
