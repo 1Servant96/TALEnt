@@ -1,12 +1,14 @@
 package Homeworks;
 
+import task.Rectangle;
+
 public class Main {
     public static void main(String[] args) {
-        TriangleArea t = new TriangleArea();
-        t.a = 7;
-        t.b = 6;
-        t.c = 3;
-        t.methodArea(t.a, t.b, t.c);
+        Rectangle area = new Rectangle();
+        area.setWidth(6);
+        area.setLength(5);
+        System.out.println(area.toString());
+        System.out.println("The area of rectangle: "+area.getRectangleArea());
     }
 
 }
